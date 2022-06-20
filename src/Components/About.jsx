@@ -17,12 +17,13 @@ const About = () => {
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, molestias?
+                            Developer en proceso. Con marcada orientacion al Desarrollo Front End.
                         </p>
                     </div>
                     <div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quae commodi, placeat cupiditate accusantium dicta nesciunt debitis incidunt non nihil quo fugiat ipsum sapiente ratione! Ducimus expedita debitis nesciunt cum fugit necessitatibus ex minus, cupiditate consectetur, recusandae aperiam illo qui?
+                            Comencé a estudiar desarrollo web de manera autodidacta, como un hobby. Pero a mediados de 2021 decidí capacitarme de manera formal, e ingresé a Henry. Fué todo un desafío y requirió de mucho esfuerzo, pero en mayo de 2022 finalmente, logré egresarme. <br />
+                            Actualmente sigo capacitandome, y buscando mi primer empleo formal como #Developer.
                         </p>
                     </div>
                 </div>

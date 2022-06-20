@@ -15,7 +15,7 @@ const Skills = () => {
             {/* header */}
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#c6488c] '>Skills</p>
-                <p className='py-4'>Tecnologias con las que trabajo</p>
+                <p className='py-4'>Tecnologías con las que trabajo.</p>
             </div>
             {/* body */}
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>

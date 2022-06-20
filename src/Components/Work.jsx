@@ -3,11 +3,13 @@ import p1 from '../assets/powerGym.jpeg';
 import p2 from '../assets/LandingFood.jpeg';
 import p3 from '../assets/WeatherAppFull.jpeg';
 import p4 from '../assets/TodoList.jpeg';
-import p5 from '../assets/proyecto-CardinalH.jpeg'
+import p5 from '../assets/proyecto-CardinalH.jpeg';
+import {FaGithub} from 'react-icons/fa';
+import {HiLink} from 'react-icons/hi';
 
 const Work = () => {
   return (
-    <div className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             {/* encabezado */}
@@ -17,7 +19,8 @@ const Work = () => {
             </div>
             {/* card container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                {/* card item */}
+
+                {/* card item - gym*/}
                 <div 
                     style={{backgroundImage:`url(${p1})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -25,22 +28,24 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Gym Control APP
+                            Gym Control 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://pf-gym-final.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Deploy
+                                    <HiLink/>
                                 </button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            <a href="https://github.com/agskbr/PF-Gym-Control-App" target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <FaGithub/>
+                                </button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                {/* card item */}
+                {/* card item - foodApp */}
                 <div 
                     style={{backgroundImage:`url(${p2})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -48,22 +53,24 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Gym Control APP
+                            Food App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://henry-food-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Deploy
+                                    <HiLink/>
                                 </button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            <a href="https://github.com/YaniAnaGarcia/Henry-Food" target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <FaGithub/>
+                                </button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                {/* card item */}
+                {/* card item - weatherApp */}
                 <div 
                     style={{backgroundImage:`url(${p3})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -71,22 +78,24 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Gym Control APP
+                            Weather-App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://weather-app-one-flax.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Deploy
+                                    <HiLink/>
                                 </button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            <a href="https://github.com/YaniAnaGarcia/Weather-App" target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <FaGithub/>
+                                </button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                {/* card item */}
+                {/* card item - TodoList*/}
                 <div 
                     style={{backgroundImage:`url(${p4})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -94,22 +103,24 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Gym Control APP
+                            Todo-List App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://app-to-do-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Deploy
+                                    <HiLink/>
                                 </button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            <a href="https://github.com/YaniAnaGarcia/App-ToDo" target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <FaGithub/>
+                                </button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                {/* card item */}
+                {/* card item- Cardinal */}
                 <div 
                     style={{backgroundImage:`url(${p5})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -117,16 +128,18 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Gym Control APP
+                            Cardinal Home
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://proyecto-cardinalhome.netlify.app/" target="_blank" rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Deploy
+                                    <HiLink/>
                                 </button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Repo</button>
+                            <a href="https://github.com/YaniAnaGarcia/cardinalHome" target="_blank" rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <FaGithub/>
+                                </button>
                             </a>
                         </div>
                     </div>
