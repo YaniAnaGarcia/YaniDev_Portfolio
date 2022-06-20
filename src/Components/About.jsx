@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                            Comencé a estudiar desarrollo web de manera autodidacta, como un hobby. Pero a mediados de 2021 decidí capacitarme de manera formal, e ingresé a Henry. Fué todo un desafío y requirió de mucho esfuerzo, pero en mayo de 2022 finalmente, logré egresarme. <br />
+                            Comencé a estudiar desarrollo web de manera autodidacta, como un hobby. Pero a mediados de 2021 decidí capacitarme de manera formal, e ingresé a Henry. Fue todo un desafío y requirió de mucho esfuerzo, pero en mayo de 2022 finalmente, logré egresarme. <br />
                             Actualmente sigo capacitandome, y buscando mi primer empleo formal como #Developer.
                         </p>
                     </div>

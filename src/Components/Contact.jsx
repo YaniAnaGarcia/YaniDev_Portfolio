@@ -13,9 +13,9 @@ const Contact = () => {
                   ¿Te gustaría trabajar conmigo, o simplemente dejarme un comentario? <br /> Dejame tu mensaje, y te contactaré a la brevedad.
                 </p>
             </div>
-            <input type="text" placeholder='Name' name='name' className='bg-[#ccd6f6]' />
-            <input type="email" placeholder='email' name='email' className='my-4 p-2 bg-[#ccd6f6]' />
-            <textarea name="message" rows="10" placeholder='Message' className='bg-[#ccd6f6] p-2'></textarea>
+            <input type="text" placeholder='Nombre' name='name' className='bg-[#ccd6f6]' />
+            <input type="email" placeholder='Email' name='email' className='my-4 p-2 bg-[#ccd6f6]' />
+            <textarea name="message" rows="10" placeholder='tu mensaje' className='bg-[#ccd6f6] p-2'></textarea>
             <button className='text-white border-2 hover:bg-[#c6488c] hover:border-[#c6488c] px-4 py-3 my-8 mx-auto flex items-center'>Enviar</button>
         </form>
         <div className='lg:hidden flex  '>
