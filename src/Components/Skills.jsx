@@ -6,6 +6,10 @@ import Js from '../assets/javascript.png';
 import Node from '../assets/node.png';
 import ReactJs from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
+import Redux from '../assets/redux-logo.png';
+import Firebase from '../assets/firebase.png'
+//import PostgreSQL from '';
+
 
 const Skills = () => {
   return (
@@ -55,12 +59,28 @@ const Skills = () => {
                     <p className='my-4'>GITHUB</p>
                 </div>
                 {/* redux */}
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Redux} alt="Redux icon" />
+                    <p className='my-4'>REDUX</p>
+                </div>
                 {/* sequelize */}
                 {/* express */}
                 {/* postgreSQL */}
+                {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={} alt="PostgreSQL icon" />
+                    <p className='my-4'>POSTGRE SQL</p>
+                </div> */}
                 {/* firebase */}
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Firebase} alt="Firebase icon" />
+                    <p className='my-4'>FIREBASE</p>
+                </div>
                 {/* mongo */}
                 {/* nextJS */}
+            </div>
+            <div>
+                {/* <p className='text-4xl font-bold inline border-b-4 border-[#c6488c] '>Skills</p> */}
+                <p className='py-4'>Aprendiendo sobre.</p>
             </div>
         </div>
     </div>

@@ -42,7 +42,7 @@ const Contact = () => {
           
           {/* cv */}
           <li className='w-[60px] h-[60px] flex hover:mt-[-10px] duration-300  ml-[8px]  bg-slate-400'> {/* ml-->marginleft */}
-            <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1FdzYvOTz8r2Pq2_rnwbbb5gBbD-nQFhn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/19slZVIUXDNdDSrANet5pEJcdDczwG2pw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <BsFillPersonLinesFill size={30}/>
             </a>
           </li>

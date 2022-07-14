@@ -17,13 +17,17 @@ const About = () => {
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>
-                            Full stack developer, con marcada orientacion al Desarrollo Front End.
+                            {/* Apasionada por la Tecnología y el desarrollo. Enfocada en el area Front-End. */}
+                            Soy creativa, curiosa , y dispuesta a afrontar nuevos desafíos y trabajar duro para superarlos🚀
                         </p>
                     </div>
                     <div>
                         <p>
-                            Comencé a estudiar desarrollo web de manera autodidacta, como un hobby. Pero a mediados de 2021 decidi hacerlo de manera formal, e ingresé a Henry. Fue todo un desafío y requirió de mucho esfuerzo, pero aprendi muchisimo. <br />
-                            Actualmente sigo capacitandome, y buscando mi primer empleo formal como #Developer.
+                            {/* Comencé a estudiar desarrollo web de manera autodidacta, como un hobby. Pero a mediados de 2021 decidi hacerlo de manera formal, e ingresé a Henry <br />
+                            Actualmente sigo capacitandome, y buscando mi primer empleo formal como #Developer. */}
+                            Soy desarrolladora Full Stack 💻 y Analista en RRHH. Luego de varios años dedicados al area de RRHH, redirigí mi perfil hacia la programación. 
+                            Poseo gran motivación y capacidad para aprender cosas nuevas. Actualmente estoy aprendiendo Next.js y diseño UX/UI para ampliar mis skills. 
+                            Además, mi experiencia previa en el área de RRHH, me permitio enriquecer mis soft skills aportando valor a mi perfil profesional.
                         </p>
                     </div>
                 </div>

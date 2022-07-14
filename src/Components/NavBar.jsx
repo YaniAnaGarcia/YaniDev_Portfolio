@@ -105,7 +105,7 @@ const handleClick = () => {
           </li>
           {/* cv */}
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-400'> {/* ml-->marginleft */}
-            <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1FdzYvOTz8r2Pq2_rnwbbb5gBbD-nQFhn/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/19slZVIUXDNdDSrANet5pEJcdDczwG2pw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               CV <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
